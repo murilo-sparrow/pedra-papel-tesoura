@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <title>Pedra, papel tesoura</title>
+    </head>
+
+    <body>
+        <h1>Pedra, papel tesoura</h1>
+        <div>
+            Jogador 1
+            <button type="button" class="btn btn-primary" onclick="jogada1(1)">Pedra</button>
+            <button type="button" class="btn btn-primary" onclick="jogada1(2)">Papel</button>
+            <button type="button" class="btn btn-primary" onclick="jogada1(3)">Tesoura</button>
+        </div>
+        <div>
+            Jogador 2
+            <button type="button" class="btn btn-primary" onclick="jogada2(1)">Pedra</button>
+            <button type="button" class="btn btn-primary" onclick="jogada2(2)">Papel</button>
+            <button type="button" class="btn btn-primary" onclick="jogada2(3)">Tesoura</button>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="resultado()">Jogar</button>
+        <script src="script.js"></script>
+    </body>
+
+</html>
